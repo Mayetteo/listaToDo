@@ -6,7 +6,7 @@ export default function Default(){
         <header className="App-header">
           <img src={immagine} className="App-logo" alt="logo" />
           <p>
-            To do list
+            Helo
           </p>
           {/* <a
             className="App-link"
