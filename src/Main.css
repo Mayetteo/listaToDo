@@ -1,0 +1,61 @@
+h1, p{
+    color: rgb(184, 195, 255);
+}
+
+header{
+    min-height: 20vh;
+    background-color:  #282c34;
+    text-align: center;
+}
+main{
+    min-height: 50vh;
+    background-color:  #282c34;
+    text-align: center;
+    width: 100%;
+}
+.input{
+    padding:5px;
+    margin: 5px;
+    margin-bottom: 50px;
+}
+button{
+    cursor: pointer;
+}
+.modifica{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.lista{
+    color: rgb(184, 195, 255);
+    font-size: 70px;
+    font-weight: 500;
+    width: 40%;
+    justify-content: space-around;
+    list-style: none;
+}
+li{
+    width: 100%;
+}
+.btn {
+    font-size: 30px;
+    margin: 10px;
+    min-width: fit-content;
+    background-color:#6b717e;
+    color: beige;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: rgb(245, 91, 91);
+    transition: 0.2s;
+}
+.riga{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.btn-inserisci:hover{
+    background-color: rgba(184, 195, 255, 0.645);
+}
